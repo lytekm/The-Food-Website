@@ -1,0 +1,208 @@
+body{
+    /*main colors*/
+    --Electric-Blue: #373e98;
+    --Hot-Pink: #f16775;
+    --Shocking-Yellow: #fee36e;
+    --Chartreuse-ish: #ceb92c;
+    --Darkest-Gray: #2a2a2a;
+    margin: 0;
+    background-color: var(--Darkest-Gray);
+}
+
+.nav{
+    background-color: #373e98;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+}
+
+.nav a{
+    position: relative;
+    height: 30px;
+    padding: 5px;
+    color: var(--Shocking-Yellow);
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 3px;
+    top: 20px;
+}
+
+.nav a:hover{
+    color: white;
+}
+
+.nav h1{
+    margin-right: 800px;
+    color: var(--Shocking-Yellow);
+}
+
+
+/*breakfast section */
+.breakfast{
+    margin: 0;
+    padding: 10px;  
+    text-align: center;
+    height: 50%;
+    width: 60%;
+    background-color: var(--Chartreuse-ish);
+    margin: auto;
+}
+
+.breakfast h2{
+    font-size: 25px;
+    font-family: "Merriweather", serif;
+    color: var(--Hot-Pink);
+}
+
+.breakfast img{
+    margin: 10px;
+    width: 20%;
+}
+
+.breakfast p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--Shocking-Yellow);
+    font-size: 19px;
+}
+
+.breakfast a{
+    color: var(--Shocking-Yellow);
+}
+
+.breakfast a:hover{
+    color: white;
+}
+
+/*lunch section*/
+.lunch{
+    margin: 0;
+    background-color: var(--Electric-Blue);
+    padding: 10px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.lunch h2{
+    font-size: 25px;
+    font-family: "Merriweather", serif;
+    color: var(--Hot-Pink);
+}
+
+.lunch img{
+    margin: 10px;
+    width: 20%;
+}
+
+.lunch p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--Shocking-Yellow);
+    font-size: 19px;
+}
+
+.lunch a{
+    color: var(--Shocking-Yellow);
+    text-decoration: underline;
+}
+
+.lunch a:hover{
+    color: white;
+}
+
+/* dinner section */
+.dinner{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--Chartreuse-ish);
+    width: 60%;
+    margin: auto;
+}
+
+
+.dinner h2{
+    font-size: 25px;
+    font-family: "Merriweather", serif;
+    color: var(--Hot-Pink);
+}
+
+.dinner img{
+    margin: 10px;
+    width: 20%;
+}
+
+.dinner p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--Shocking-Yellow);
+    font-size: 19px;
+}
+
+.dinner a{
+    color: var(--Shocking-Yellow);
+}
+
+.dinner a:hover{
+    color: white;
+}
+
+/*about page*/
+.about{
+    background-color: var(--Chartreuse-ish);
+    text-align: center;
+    padding: 20px;
+    border-bottom-left-radius: 100% 50%;
+    border-bottom-right-radius: 100% 50%;
+    width: 60%;
+    margin: auto;
+}
+
+.about h1{
+    color: var(--Hot-Pink);
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+}
+
+.about h2{
+    color: var(--Hot-Pink);
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+}
+
+.about p{
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+}
+
+/*recipes page*/
+.recipe-title{
+    font-size: 50px;
+    color: var(--Shocking-Yellow);
+    margin-left: 10px;
+}
+
+.recipe{
+    background-color: var(--Chartreuse-ish);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+.recipe h2{
+    font-size: 30px;
+    color: var(--Hot-Pink);
+}
+
+.recipe img{
+    width: 25%;
+}
+
+.recipe a{
+    font-size: 20px;
+    color: var(--Darkest-Gray);
+}

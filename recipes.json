@@ -1,0 +1,24 @@
+[
+    {
+        "type":"breakfast",
+        "meal": "Belgian Waffles",
+        "src": "https://www.food.com/recipe/the-best-belgian-waffles-63071",
+        "pic": "https://storcpdkenticomedia.blob.core.windows.net/media/recipemanagementsystem/media/recipe-media-files/recipes/retail/x17/2020_belgian-style-waffles_16700_760x580.jpg?ext=.jpg"
+    },
+
+    {
+        "type":"breakfast",
+        "meal": "Bananna Pancakes",
+        "src": "https://www.food.com/recipe/banana-pancakes-86353",
+        "pic": "https://img.sndimg.com/food/image/upload/c_thumb,q_80,w_565,h_318/v1/img/recipes/86/35/3/xebcOwDQoO6YS2rJggLO_0S9A0808.jpg"
+    },
+
+    {
+        "type":"lunch",
+        "meal": "Chicken Salad",
+        "src": "https://www.food.com/recipe/the-best-chicken-salad-63071",
+        "pic": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpublic-assets.meredithcorp.io%2F8af315130ec81aca08d47c5ab3aa3a39%2F1647806387ChickenSalad.jpg&w=1200&h=678&c=sc&poi=face&q=60"
+    }
+
+
+]
