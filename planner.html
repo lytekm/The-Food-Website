@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap"
       rel="stylesheet"
     />
-    <script defer src="index.js"></script>
+    <script defer src="planner.js"></script>
     <title>Planner</title>
   </head>
   <body>
@@ -22,5 +22,11 @@
       <a href="planner.html">Planner</a>
       <a href="recipes.html">Recipes</a>
     </div>
+    <h1 class="planner-title">Planner</h1>
+    <div class="form">
+      <input type="text" placeholder="Ingredient" id="input" />
+      <button onclick="add()">Add to List</button>
+    </div>
+    <div id="list"></div>
   </body>
 </html>

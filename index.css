@@ -41,13 +41,13 @@ body{
 
 /*breakfast section */
 .breakfast{
-    margin: 0;
     padding: 10px;  
     text-align: center;
     height: 50%;
     width: 60%;
     background-color: var(--Chartreuse-ish);
     margin: auto;
+    margin-top: 35px;
 }
 
 .breakfast h2{
@@ -180,6 +180,7 @@ body{
     font-size: 50px;
     color: var(--Shocking-Yellow);
     margin-left: 10px;
+    text-align: center;
 }
 
 .recipe{
@@ -205,4 +206,40 @@ body{
 .recipe a{
     font-size: 20px;
     color: var(--Darkest-Gray);
+}
+
+/*list page*/
+#list{
+    background-color: var(--Shocking-Yellow);
+    text-align: center;
+    width: 60%;
+    min-height: 20px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.planner-title{
+    color: var(--Chartreuse-ish);
+    text-align: center;
+}
+
+.form{
+    background-color: var(--Hot-Pink);
+    padding: 10px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.form input{
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.form button{
+    font-size: 20px;
+    border-radius: 10px;
 }
