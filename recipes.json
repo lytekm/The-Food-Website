@@ -18,6 +18,13 @@
         "meal": "Chicken Salad",
         "src": "https://www.food.com/recipe/the-best-chicken-salad-63071",
         "pic": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpublic-assets.meredithcorp.io%2F8af315130ec81aca08d47c5ab3aa3a39%2F1647806387ChickenSalad.jpg&w=1200&h=678&c=sc&poi=face&q=60"
+    },
+
+    {
+        "type":"dinner",
+        "meal": "Spaghetti with Meat Sauce",
+        "src": "https://www.cookingclassy.com/spaghetti-with-meat-sauce-authentic-italian-style/",
+        "pic": "https://www.cookingclassy.com/wp-content/uploads/2012/11/spaghetti+with+meat+sauce11.jpg"
     }
 
 

@@ -18,10 +18,10 @@ function add() {
     div.appendChild(ingredient);
     div.appendChild(button);
 
-    button.innerHTML = "Delete";
+    button.innerHTML = "<img src='trashicon.png'/>";
     button.className = "delete";
 
-    document.getElementById("input").value = " ";
+    document.getElementById("input").value = "";
 
     //for removing elements
     var buttons = document.getElementsByClassName("delete");
